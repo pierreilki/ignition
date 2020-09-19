@@ -1,0 +1,44 @@
+{
+  "ignition": {
+    "version": "3.1.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "groups": [
+          "docker"
+        ],
+        "name": "core",
+        "passwordHash": "$1$j77zdnMY$kfl076YvJ9ncBfzoBPf0h0",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjrAbdMm+Su5xMKcu7cfbpTS721wjzjngpvwToQF3Ta2oFw30rWg7nzxqgs1rZ4/6suUqDvTEeSI54KRouhwg1q9XeDl0V66gYzHyIw3vr2CkkvU35SAdGF1HPDQXGeQ2K1m54Xzlx1ng+LGHvow4ljNpF5221VEWGRAKoybqHGydyeH9eCXsZl+XTEAZQyE7FduxAxzGTf9y3Kn8MCvRfXJSGuIvRM0WlHn/0B+DqPLBnjVg3BsrsLRUL3W8hZS3sDUT5SPXUEPICuah78kbnvgY3YT6hAACz1DYvdFEgIhDe85X4o7GlYTaaCvDeYECDrsEw99PTiJWzIFvHXQRt"
+        ]
+      },
+      {
+        "groups": [
+          "docker"
+        ],
+        "name": "vagrant",
+        "passwordHash": "$1$j77zdnMY$kfl076YvJ9ncBfzoBPf0h0",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6NF8iallvQVp22WDkTkyrtvp9eWW6A8YVr+kz4TjGYe7gHzIw+niNltGEFHzD8+v1I2YJ6oXevct1YeS0o9HZyN1Q9qgCgzUFtdOKLv6IedplqoPkcmF0aYet2PkEDo3MlTBckFXPITAMzF8dJSIFo9D8HfdOV0IAdx4O7PtixWKn5y2hMNG0zQPyUecp4pzC6kivAIhyfHilFR61RGL+GPXQ2MWZWFYbAGjyiYJnAmCP3NOTd0jMZEnDkbUvxhMmBYSdETk1rRgm+R4LOzFUGaHqHDLKLX+FIPKcF96hrucXzcWyLbIbEgE98OHlnVYCzRdK8jlqm8tehUc9c9WhQ== vagrant insecure public key"
+        ]
+      },
+      {
+        "name": "root",
+        "passwordHash": "$1$j77zdnMY$kfl076YvJ9ncBfzoBPf0h0"
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "contents": {
+          "source": "data:,coreos"
+        },
+        "mode": 420,
+        "path": "/etc/hostname"
+      }
+    ]
+  }
+}
