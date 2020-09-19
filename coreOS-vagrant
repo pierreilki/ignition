@@ -38,6 +38,13 @@
         },
         "mode": 420,
         "path": "/etc/hostname"
+      },
+      {
+        "contents": {
+          "source": "data:,vagrant%20ALL%3D(ALL)%20NOPASSWD%3A%20ALL"
+        },
+        "mode": 420,
+        "path": "/etc/sudoers.d/vagrant"
       }
     ]
   }
